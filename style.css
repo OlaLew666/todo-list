@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+html , body{
+    min-height: 100%;
+}
+
+body {
+    margin: auto;
+    background: url("Background.png") no-repeat 0px; 
+    background-size: cover;
+}
+.avatar {
+   width: 86px;
+   height: 86px; 
+   margin: 30px auto 0 auto;
+   display: block;
+}
+.list-heading {
+    position: absolute;
+width: 360px;
+height: 64px;
+left: 0px;
+top: 0px;
+background color: grey ;
+margin-top: 206px ;
+margin-right: 420px ;
+margin-left: 460px ;
+}
+.todo-list{
+margin-top: 288px ;
+margin-left: 460px ;
+margin-right: 420px ;
+}
