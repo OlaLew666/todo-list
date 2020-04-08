@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="eng">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>To do today</title>
-    <link href="style.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" />
   </head>
   <body>
-    <img src="Image.png" class="avatar">
-    <h1 class="list-heading"><div class="content-heading">To do today</div></h1>
-      <input class="add-form" id="new-todo" placeholder="Add New Task" onclick="newElement()">
+    <img src="Image.png" class="avatar" />
+    <h1 class="list-heading">
+      <div class="content-heading">To do today</div>
+    </h1>
+    <form onsubmit="newElement(event)">
+      <input class="add-form" id="new-todo" placeholder="Add New Task" />
+    </form>
     <ul class="todo-list" id="todo-list">
       <li class="checked">Wake up</li>
       <li>Explore the world</li>
